@@ -50,8 +50,9 @@ header {
 }
 
 header h1 {
+  padding: 10px;
   text-transform: uppercase;
-  text-align: ce;
+  font-size: 30px;
 }
 
 header .hero-img {
@@ -92,9 +93,10 @@ header .hero-text {
 
 header .hero-text p {
   padding: 10px;
+  font-size: 14px;
 }
 
-header .fa-arrow-circle-down {
+.fa-arrow-circle-down {
   position: absolute;
   bottom: 0;
   left: 50%;
