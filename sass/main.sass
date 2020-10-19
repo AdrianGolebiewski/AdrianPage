@@ -10,16 +10,18 @@ body
     position: relative
     font-family: 'Montserrat', sans-serif
     background-color: #333
+.blue-text
+    color: #097bc2
 // Nawigacja
 nav 
     text-transform: uppercase
     
     a, i 
         color: #fff
-        transition: color .7s
+        transition: color .3s
 
     a:hover 
-        color: #123246
+        color: #097bc2
 
     i 
         padding: 10px
@@ -35,8 +37,28 @@ header
 
     h1 
         text-transform: uppercase
+        text-align: center
     .hero-img
+        position: relative  
         height: 100vh
         background-image: url(/img/BG-s.jpg)
         background-position: center 
         background-size: cover
+        background-attachment: fixed
+        z-index: 0
+    .hero-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0 , 0, .3)
+        z-index: -10
+
+    .hero-text
+        color: #e6e6e6fd
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        height: 100%
+        p
+            padding: 10px
