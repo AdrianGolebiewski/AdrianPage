@@ -29,6 +29,10 @@ nav a:hover {
   color: #039dff;
 }
 
+nav i {
+  padding: 10px;
+}
+
 nav .navbar-brand {
   font-weight: bold;
 }
