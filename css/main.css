@@ -26,7 +26,7 @@ nav a, nav i {
 }
 
 nav a:hover {
-  color: #039dff;
+  color: #123246;
 }
 
 nav i {
@@ -39,5 +39,20 @@ nav .navbar-brand {
 
 nav .active {
   color: #039dff;
+}
+
+header {
+  color: #fff;
+}
+
+header h1 {
+  text-transform: uppercase;
+}
+
+header .hero-img {
+  height: 100vh;
+  background-image: url(/img/BG-s.jpg);
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
