@@ -106,4 +106,13 @@ header .fa-arrow-circle-down {
           transform: translate(-50%);
   font-size: 30px;
 }
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header .hero-text p {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
