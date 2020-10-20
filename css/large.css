@@ -6,5 +6,7 @@ header .fa-arrow-circle-down {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   font-size: 30px;
+  -webkit-animation: bounce 1.6s infinite;
+          animation: bounce 1.6s infinite;
 }
 /*# sourceMappingURL=large.css.map */
