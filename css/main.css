@@ -99,12 +99,6 @@ header .hero-text p {
 
 header .fa-arrow-circle-down {
   display: none;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  font-size: 30px;
 }
 
 @media (min-width: 375px) {
