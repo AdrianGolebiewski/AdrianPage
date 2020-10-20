@@ -45,6 +45,11 @@ nav .active {
   color: #039dff;
 }
 
+.shadow-bg {
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
 header {
   color: #fff;
 }
@@ -58,7 +63,7 @@ header h1 {
 header .hero-img {
   position: relative;
   height: 100vh;
-  background-image: url(/img/BG-s.jpg);
+  background-image: url(/img/bear-S.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
