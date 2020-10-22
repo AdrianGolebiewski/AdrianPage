@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const nav = document.querySelector('.navbar')
 
-    function adShadow() {
-        if (window.scroll >= 300) {
+    function addShadow() {
+        if (window.scrollY >= 100) {
             nav.classList.add('shadow-bg')
         } else {
             nav.classList.remove('shadow-bg')
         }
     }
-    window.addEventListener('scroll')
+    window.addEventListener('scroll', addShadow)
 });
